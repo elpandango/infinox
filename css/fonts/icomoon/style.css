@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?74zjeb');
+  src:  url('fonts/icomoon.eot?74zjeb#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?74zjeb') format('truetype'),
+    url('fonts/icomoon.woff?74zjeb') format('woff'),
+    url('fonts/icomoon.svg?74zjeb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-apple:before {
+  content: "\e910";
+  color: #f3c644;
+}
+.icon-play-empty:before {
+  content: "\e908";
+  color: #f3c644;
+}
+.icon-database:before {
+  content: "\e900";
+  color: #f3c644;
+}
+.icon-database-2:before {
+  content: "\e901";
+  color: #f3c644;
+}
+.icon-download:before {
+  content: "\e902";
+  color: #757575;
+}
+.icon-dropmenu:before {
+  content: "\e903";
+  color: #f3c644;
+}
+.icon-equalizer:before {
+  content: "\e904";
+  color: #f3c644;
+}
+.icon-list-marker:before {
+  content: "\e905";
+  color: #f3c644;
+}
+.icon-mac:before {
+  content: "\e906";
+  color: #f3c644;
+}
+.icon-network:before {
+  content: "\e907";
+  color: #f3c644;
+}
+.icon-play-small:before {
+  content: "\e909";
+  color: #757575;
+}
+.icon-ranges:before {
+  content: "\e90a";
+  color: #f3c644;
+}
+.icon-support:before {
+  content: "\e90b";
+  color: #f3c644;
+}
+.icon-user:before {
+  content: "\e90c";
+  color: #757575;
+}
+.icon-web:before {
+  content: "\e90d";
+  color: #f3c644;
+}
+.icon-windows:before {
+  content: "\e90e";
+  color: #f3c644;
+}
+.icon-android:before {
+  content: "\e90f";
+  color: #f3c644;
+}
+.icon-apple-filled:before {
+  content: "\e911";
+  color: #757575;
+}
+.icon-book:before {
+  content: "\e912";
+  color: #f3c644;
+}
+.icon-bubble:before {
+  content: "\e913";
+  color: #f3c644;
+}
+.icon-click:before {
+  content: "\e914";
+  color: #f3c644;
+}

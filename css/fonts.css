@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'MontserratBold';
+    src: url("fonts/monserrat/Montserrat-Bold.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("fonts/proxima-nova/proxima-nova-light.woff") format("woff");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("fonts/proxima-nova/proxima-nova-light-italic.woff") format("woff");
+    font-style: italic;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("fonts/proxima-nova/proxima-nova-regular.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("fonts/proxima-nova/proxima-nova-italic.woff") format("woff");
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("fonts/proxima-nova/proxima-nova-semibold.woff") format("woff");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("fonts/proxima-nova/proxima-nova-semibold-italic.woff") format("woff");
+    font-style: italic;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("fonts/proxima-nova/proxima-nova-bold.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("fonts/proxima-nova/proxima-nova-black.woff") format("woff");
+    font-style: normal;
+    font-weight: 900;
+}
+
+/*custom font*/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon/fonts/icomoon.eot?lix93c');
+    src:  url('fonts/icomoon/fonts/icomoon.eot?lix93c#iefix') format('embedded-opentype'),
+    url('fonts/icomoon/fonts/icomoon.ttf?lix93c') format('truetype'),
+    url('fonts/icomoon/fonts/icomoon.woff?lix93c') format('woff'),
+    url('fonts/icomoon/fonts/icomoon.svg?lix93c#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-database:before {
+    content: "\e900";
+    color: #757575;
+}
+.icon-database-2:before {
+    content: "\e901";
+    color: #757575;
+}
+.icon-download:before {
+    content: "\e902";
+    color: #757575;
+}
+.icon-dropmenu:before {
+    content: "\e903";
+    color: #f3c644;
+}
+.icon-equalizer:before {
+    content: "\e904";
+    color: #757575;
+}
+.icon-list-marker:before {
+    content: "\e905";
+    color: #f3c644;
+}
+.icon-mac:before {
+    content: "\e906";
+    color: #757575;
+}
+.icon-network:before {
+    content: "\e907";
+    color: #757575;
+}
+.icon-play-empty:before {
+    content: "\e908";
+    color: #000;
+}
+.icon-play-small:before {
+    content: "\e909";
+    color: #757575;
+}
+.icon-ranges:before {
+    content: "\e90a";
+    color: #757575;
+}
+.icon-support:before {
+    content: "\e90b";
+    color: #757575;
+}
+.icon-user:before {
+    content: "\e90c";
+    color: #757575;
+}
+.icon-web:before {
+    content: "\e90d";
+    color: #757575;
+}
+.icon-windows:before {
+    content: "\e90e";
+    color: #757575;
+}
+.icon-android:before {
+    content: "\e90f";
+}
+.icon-apple:before {
+    content: "\e910";
+    color: #000;
+}
+.icon-apple-filled:before {
+    content: "\e911";
+}
+.icon-book:before {
+    content: "\e912";
+    color: #757575;
+}
+.icon-bubble:before {
+    content: "\e913";
+    color: #757575;
+}
+.icon-click:before {
+    content: "\e914";
+    color: #757575;
+}
