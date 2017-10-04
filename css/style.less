@@ -2348,3 +2348,26 @@ footer.footer-main {
     transform: rotate(360deg);
   }
 }
+
+.svg-cont {
+  width: 85px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.svgIco {
+  stroke: @yellow;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  fill-opacity: 0;
+  transition: fill-opacity 1s;
+  visibility: hidden;
+  @media @tablet, @mobile {
+    visibility: visible;
+  }
+}
+
+#ico1 {
+  stroke-width: 1;
+}

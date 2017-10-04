@@ -3493,3 +3493,25 @@ footer.footer-main .footer-mobile {
     transform: rotate(360deg);
   }
 }
+.svg-cont {
+  width: 85px;
+  height: 80px;
+  margin: 0 auto;
+}
+.svgIco {
+  stroke: #ffcd00;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  fill-opacity: 0;
+  transition: fill-opacity 1s;
+  visibility: hidden;
+}
+@media only screen and (min-width: 768px) and (max-width: 1220px), only screen and (max-width: 767px) {
+  .svgIco {
+    visibility: visible;
+  }
+}
+#ico1 {
+  stroke-width: 1;
+}
