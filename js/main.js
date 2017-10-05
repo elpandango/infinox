@@ -25,26 +25,7 @@ jQuery(document).ready(function ($) {
             classToAdd: 'visible animated fadeIn',
             offset: 80
         });
-        $('.anZoom').addClass('hidden').viewportChecker({
-            classToAdd: 'visible animated zoomIn',
-            offset: 80
-        });
-        $('.anZoom2').addClass('hidden').viewportChecker({
-            classToAdd: 'visible animated delay-1 zoomIn',
-            offset: 100
-        });
-        $('.anZoom3').addClass('hidden').viewportChecker({
-            classToAdd: 'visible animated delay-2 zoomIn',
-            offset: 100
-        });
-        $('.textSlideAnFirst').viewportChecker({
-            classToAdd: 'active animated',
-            offset: 50
-        });
-        $('.textSlideAn').viewportChecker({
-            classToAdd: 'active animated',
-            offset: 100
-        });
+
         $('.anLeft').addClass('hidden').viewportChecker({
             classToAdd: 'visible animated fadeInLeftBig',
             offset: 100
@@ -101,17 +82,9 @@ jQuery(document).ready(function ($) {
             classToAdd: 'visible animated sec-5 fadeInUp',
             offset: 100
         });
-        $('.flipInX').addClass('hidden').viewportChecker({
-            classToAdd: 'visible animated flipInX',
-            offset: 300
-        });
         $('.anRight2').addClass('hidden').viewportChecker({
             classToAdd: 'visible animated fadeInRightBig',
             offset: 500
-        });
-        $('.bounceIn').addClass('hidden').viewportChecker({
-            classToAdd: 'visible animated bounceIn',
-            offset: 200
         });
         $('.anLeftImg').addClass('hidden').viewportChecker({
             classToAdd: 'visible animated sec-2 bounceInMobileLeft',
@@ -141,18 +114,6 @@ jQuery(document).ready(function ($) {
             classToAdd: 'visible animated sec-4 fadeInLeftBig',
             offset: 100
         });
-        $('.bounceInItem1').addClass('hidden').viewportChecker({
-            classToAdd: 'visible animated sec-1 fadeIn',
-            offset: 200
-        });
-        $('.bounceInItem2').addClass('hidden').viewportChecker({
-            classToAdd: 'visible animated sec-2 fadeIn',
-            offset: 200
-        });
-        $('.bounceInItem3').addClass('hidden').viewportChecker({
-            classToAdd: 'visible animated sec-3 fadeIn',
-            offset: 200
-        });
         $('.ImgRight1').addClass('hidden').viewportChecker({
             classToAdd: 'visible animated sec-1 fadeInRightBig',
             offset: 300
@@ -180,22 +141,6 @@ jQuery(document).ready(function ($) {
         $('.ImgRight7').addClass('hidden').viewportChecker({
             classToAdd: 'visible animated sec-7 fadeInRightBig',
             offset: 300
-        });
-        $('.animationThreeSec1').addClass('hidden').viewportChecker({
-            classToAdd: 'visible animated sec-2 animSlide1',
-            offset: 400
-        });
-        $('.animationThreeSec2').addClass('hidden').viewportChecker({
-            classToAdd: 'visible animated sec-2 animSlide2',
-            offset: 400
-        });
-        $('.anLeftImgSlide').addClass('hidden').viewportChecker({
-            classToAdd: 'visible animated sec-2 bounceInMobileLeft',
-            offset: 0
-        });
-        $('.anRightImgSlide').addClass('hidden').viewportChecker({
-            classToAdd: 'visible animated sec-2 bounceInMobileRight',
-            offset: 0
         });
 
         /**/
