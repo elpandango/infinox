@@ -1307,13 +1307,13 @@ h2 .icon {
 .page-header.sticky .menu-desktop .menu-list > li .menu-title {
   padding-bottom: 45px;
 }
-.mobile-menu-wrap .mobile-menu {
+.mobile-menu-wrapper .mobile-menu {
   display: none;
   background: #2c2c2c;
   height: 100%;
   overflow-y: auto;
 }
-.mobile-menu-wrap .mobile-menu a {
+.mobile-menu-wrapper .mobile-menu a {
   display: block;
   text-decoration: none;
   color: #fff;
@@ -1323,60 +1323,60 @@ h2 .icon {
   font: 700 20px/22px "ProximaNova", Arial, sans-serif;
   text-transform: uppercase;
 }
-.mobile-menu-wrap .mobile-menu a:hover {
+.mobile-menu-wrapper .mobile-menu a:hover {
   text-decoration: none;
 }
-.mobile-menu-wrap .mobile-menu > ul > li {
+.mobile-menu-wrapper .mobile-menu > ul > li {
   color: #333;
   line-height: 1.2em;
   background: #141414;
   margin-top: 1px;
 }
-.mobile-menu-wrap .mobile-menu > ul > li.selected > a,
-.mobile-menu-wrap .mobile-menu > ul > li:hover > a {
+.mobile-menu-wrapper .mobile-menu > ul > li.selected > a,
+.mobile-menu-wrapper .mobile-menu > ul > li:hover > a {
   color: #ffcd00;
 }
-.mobile-menu-wrap .mobile-menu > ul > li.selected,
-.mobile-menu-wrap .mobile-menu > ul > li:hover {
+.mobile-menu-wrapper .mobile-menu > ul > li.selected,
+.mobile-menu-wrapper .mobile-menu > ul > li:hover {
   background-color: #494949;
 }
-.mobile-menu-wrap .mobile-menu > ul > li.selected > a:after {
+.mobile-menu-wrapper .mobile-menu > ul > li.selected > a:after {
   content: '\e903';
   font-family: 'icomoon';
   transform: rotate(180deg);
 }
-.mobile-menu-wrap .mobile-menu > ul > li > a:after {
+.mobile-menu-wrapper .mobile-menu > ul > li > a:after {
   content: '\e903';
   font-family: 'icomoon';
   font-size: 13px;
   transform: rotate(0);
   float: right;
 }
-.mobile-menu-wrap .mobile-menu > ul > li > ul {
+.mobile-menu-wrapper .mobile-menu > ul > li > ul {
   display: none;
   background: #494949;
 }
-.mobile-menu-wrap .mobile-menu > ul > li > ul > li {
+.mobile-menu-wrapper .mobile-menu > ul > li > ul > li {
   text-shadow: none;
   border-bottom: 1px solid #5c5c5c;
   color: #fff;
   letter-spacing: 0;
 }
-.mobile-menu-wrap .mobile-menu > ul > li > ul > li:first-child {
+.mobile-menu-wrapper .mobile-menu > ul > li > ul > li:first-child {
   border-top: 1px solid #5c5c5c;
 }
-.mobile-menu-wrap .mobile-menu > ul > li > ul > li a {
+.mobile-menu-wrapper .mobile-menu > ul > li > ul > li a {
   padding-left: 90px;
 }
-.mobile-menu-wrap .mobile-menu > ul > li > ul > li a:hover {
+.mobile-menu-wrapper .mobile-menu > ul > li > ul > li a:hover {
   color: #141414;
   background-color: #ffcd00;
 }
-.mobile-menu-wrap .mobile-menu .banners {
+.mobile-menu-wrapper .mobile-menu .banners {
   max-width: 778px;
   margin: 0 auto;
 }
-.mobile-menu-wrap .mobile-menu .banners .banner-block {
+.mobile-menu-wrapper .mobile-menu .banners .banner-block {
   position: relative;
   display: none;
   background-color: #ffcd00;
@@ -1384,39 +1384,39 @@ h2 .icon {
   border-radius: 3px;
 }
 @media only screen and (max-width: 767px) {
-  .mobile-menu-wrap .mobile-menu .banners .banner-block {
+  .mobile-menu-wrapper .mobile-menu .banners .banner-block {
     padding: 15px 35px;
   }
 }
-.mobile-menu-wrap .mobile-menu .banners .banner-block.banner-block_big .banner-img {
+.mobile-menu-wrapper .mobile-menu .banners .banner-block.banner-block_big .banner-img {
   padding-right: 15px;
 }
-.mobile-menu-wrap .mobile-menu .banners .banner-block.banner-block_big .banner-title {
+.mobile-menu-wrapper .mobile-menu .banners .banner-block.banner-block_big .banner-title {
   letter-spacing: .1em;
   font: 900 30px/30px "ProximaNova", Arial, sans-serif;
   padding-top: 10px;
 }
 @media only screen and (max-width: 767px) {
-  .mobile-menu-wrap .mobile-menu .banners .banner-block.banner-block_big .banner-title {
+  .mobile-menu-wrapper .mobile-menu .banners .banner-block.banner-block_big .banner-title {
     font-size: 16px;
     line-height: 27px;
     padding-top: 0;
   }
-  .mobile-menu-wrap .mobile-menu .banners .banner-block br {
+  .mobile-menu-wrapper .mobile-menu .banners .banner-block br {
     display: none;
   }
 }
-.mobile-menu-wrap .mobile-menu .banners .banner-block .banner-img {
+.mobile-menu-wrapper .mobile-menu .banners .banner-block .banner-img {
   display: table-cell;
   padding-right: 30px;
 }
 @media only screen and (max-width: 767px) {
-  .mobile-menu-wrap .mobile-menu .banners .banner-block .banner-img img {
+  .mobile-menu-wrapper .mobile-menu .banners .banner-block .banner-img img {
     display: block;
     max-width: 150px;
   }
 }
-.mobile-menu-wrap .mobile-menu .banners .banner-block .banner-content {
+.mobile-menu-wrapper .mobile-menu .banners .banner-block .banner-content {
   position: relative;
   display: table-cell;
   vertical-align: top;
@@ -1424,7 +1424,7 @@ h2 .icon {
   padding-bottom: 55px;
 }
 @media only screen and (max-width: 767px) {
-  .mobile-menu-wrap .mobile-menu .banners .banner-block .banner-content {
+  .mobile-menu-wrapper .mobile-menu .banners .banner-block .banner-content {
     position: static;
     display: block;
     margin-top: 20px;
@@ -1432,28 +1432,28 @@ h2 .icon {
     min-width: 0;
   }
 }
-.mobile-menu-wrap .mobile-menu .banners .banner-block .banner-title {
+.mobile-menu-wrapper .mobile-menu .banners .banner-block .banner-title {
   display: inline-block;
   text-transform: uppercase;
   font: 400 14px/27px "ProximaNova", Arial, sans-serif;
   color: #141414;
 }
 @media only screen and (max-width: 767px) {
-  .mobile-menu-wrap .mobile-menu .banners .banner-block .banner-title {
+  .mobile-menu-wrapper .mobile-menu .banners .banner-block .banner-title {
     font-family: "ProximaNova", Arial, sans-serif;
   }
 }
-.mobile-menu-wrap .mobile-menu .banners .banner-block .banner-text {
+.mobile-menu-wrapper .mobile-menu .banners .banner-block .banner-text {
   font: 400 14px/16px "ProximaNova", Arial, sans-serif;
   color: #141414;
   padding-top: 20px;
 }
 @media only screen and (max-width: 767px) {
-  .mobile-menu-wrap .mobile-menu .banners .banner-block .banner-text {
+  .mobile-menu-wrapper .mobile-menu .banners .banner-block .banner-text {
     padding-top: 10px;
   }
 }
-.mobile-menu-wrap .mobile-menu .banners .banner-block .banner-button {
+.mobile-menu-wrapper .mobile-menu .banners .banner-block .banner-button {
   cursor: pointer;
   position: absolute;
   bottom: 14px;
@@ -1491,7 +1491,7 @@ h2 .icon {
   }
 }
 @media only screen and (max-width: 767px) {
-  .mobile-menu-wrap .mobile-menu .banners .banner-block .banner-button {
+  .mobile-menu-wrapper .mobile-menu .banners .banner-block .banner-button {
     bottom: auto;
     left: 185px;
     top: 115px;
